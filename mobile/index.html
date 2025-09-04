@@ -82,6 +82,38 @@
     .group-1597879178 {
       cursor: pointer;
     }
+    
+    .menu-button-wrapper {
+      position: fixed;
+      right: 15px;
+      top: 15px;
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      z-index: 10000;
+      background: rgba(0, 67, 36, 0.8);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #fff;
+    }
+    
+    .simple-menu-test {
+      position: fixed;
+      right: 15px;
+      top: 85px;
+      width: 60px;
+      height: 40px;
+      background: #004324;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 10000;
+      font-size: 12px;
+      font-weight: bold;
+    }
   </style>
   
   <script>
@@ -139,7 +171,10 @@
       <div class="rectangle-149479184"></div>
     </div>
     <img class="rectangle-1098" src="rectangle-10980.svg" />
-    <img class="group-1597879178" src="group-15978791780.svg" onclick="toggleMobileMenu()" />
+    <div class="menu-button-wrapper" onclick="toggleMobileMenu()">
+      <img class="group-1597879178" src="group-15978791780.svg" />
+    </div>
+    <button class="simple-menu-test" onclick="toggleMobileMenu()">MENU</button>
     <div class="div5">
       <span>
         <span class="div-5-span">「人のため」を</span>

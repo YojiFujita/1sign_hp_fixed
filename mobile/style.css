@@ -110,13 +110,13 @@ body {
   height: 116px;
 }
 .group-1597879173 {
-  width: 46.8%;
-  height: 11.47%;
+  width: 60%;
+  height: 15%;
   position: absolute;
-  right: 47.07%;
-  left: 6.13%;
-  bottom: 51.02%;
-  top: 37.51%;
+  right: 35%;
+  left: 5%;
+  bottom: 48%;
+  top: 37%;
   overflow: visible;
 }
 .rectangle-149479184 {
@@ -137,14 +137,11 @@ body {
   object-fit: cover;
 }
 .group-1597879178 {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  right: 30px;
-  top: 313px;
+  width: 50px;
+  height: 50px;
+  position: relative;
   overflow: visible;
   cursor: pointer;
-  z-index: 100;
 }
 .div5 {
   color: #ffffff;
