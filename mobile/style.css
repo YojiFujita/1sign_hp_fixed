@@ -17,12 +17,14 @@ html, body {
   height: 9884px;
   position: relative;
   overflow: hidden;
+  transform: scale(0.53);
+  transform-origin: top left;
 }
 
 /* Body container for viewport-based scaling */
 body {
   width: 100vw;
-  height: 9884px;
+  height: calc(9884px * 0.53);
   overflow-x: hidden;
 }
 .div {
