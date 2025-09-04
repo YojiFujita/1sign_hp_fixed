@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-/* Responsive Mobile Adjustments */
+/* Responsive Mobile Adjustments - Scale 750px design to mobile */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -13,17 +13,24 @@ html, body {
 
 .mobile-top {
   background: #eee9e1;
-  width: 100vw;
-  max-width: 100%;
-  height: auto;
-  min-height: 100vh;
+  width: 750px;
+  height: 9884px;
   position: relative;
+  overflow: hidden;
+  /* Scale down 750px design to fit mobile screens (typically 375px) */
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+
+/* Container to prevent scaled content from being cut off */
+body {
+  width: 100vw;
+  height: calc(9884px * 0.5);
   overflow-x: hidden;
 }
 .div {
   background: #004324;
-  width: 100vw;
-  max-width: 100%;
+  width: 750px;
   height: 1069px;
   position: absolute;
   left: 0px;
@@ -31,7 +38,7 @@ html, body {
 }
 .rectangle-4453 {
   border-radius: 0px;
-  width: calc(100vw + 24px);
+  width: 752px;
   height: 603px;
   position: absolute;
   left: -24px;
@@ -49,8 +56,7 @@ html, body {
   position: absolute;
   left: 39.45px;
   top: 152px;
-  width: calc(100vw - 80px);
-  max-width: 90%;
+  width: 633.39px;
 }
 .div2 {
   color: #f9f5ee;
@@ -123,7 +129,7 @@ html, body {
   top: 548px;
 }
 .rectangle-1098 {
-  width: 100vw;
+  width: 750px;
   height: 894px;
   position: absolute;
   left: 0px;
@@ -230,7 +236,7 @@ html, body {
   overflow: visible;
 }
 .div6 {
-  width: 100vw;
+  width: 750px;
   height: 1684px;
   position: absolute;
   left: 0px;
@@ -830,7 +836,7 @@ html, body {
   width: 560px;
   height: 449.04px;
   position: absolute;
-  left: 100vw;
+  left: 750px;
   top: 1907px;
   transform: translate(-558.16px, -449.04px);
   overflow: visible;
