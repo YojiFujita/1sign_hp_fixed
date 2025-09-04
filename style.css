@@ -160,12 +160,13 @@
   letter-spacing: 0.07em;
   font-weight: 700;
   position: absolute;
-  right: 32.88%;
+  right: 30%;
   left: 20.66%;
-  width: 46.46%;
+  width: 50%;
   bottom: 38.3%;
   top: 40.03%;
   height: 21.67%;
+  white-space: nowrap;
 }
 .ellipse-1 {
   background: #ffffff;
@@ -840,12 +841,13 @@
   letter-spacing: 1px;
   font-weight: 700;
   position: absolute;
-  right: 84.49%;
+  right: 78%;
   left: 8.24%;
-  width: 7.27%;
+  width: 14%;
   bottom: 32.69%;
   top: 32.69%;
   height: 34.62%;
+  white-space: nowrap;
 }
 .div16 {
   color: #5e5e5e;
@@ -856,12 +858,13 @@
   letter-spacing: 1px;
   font-weight: 700;
   position: absolute;
-  right: 75.84%;
-  left: 19.35%;
-  width: 4.82%;
+  right: 68%;
+  left: 23%;
+  width: 9%;
   bottom: 32.69%;
   top: 32.69%;
   height: 34.62%;
+  white-space: nowrap;
 }
 .link-list {
   border-radius: 3px;
@@ -870,10 +873,10 @@
   gap: 10px;
   align-items: center;
   justify-content: flex-start;
-  width: 4.82%;
+  width: 9%;
   height: 34.62%;
   position: absolute;
-  right: 31.8%;
+  right: 27%;
   left: 63.39%;
   bottom: 32.69%;
   top: 32.69%;
@@ -887,6 +890,7 @@
   letter-spacing: 1px;
   font-weight: 700;
   position: relative;
+  white-space: nowrap;
 }
 .link-list2 {
   border-radius: 3px;
@@ -895,10 +899,10 @@
   gap: 10px;
   align-items: center;
   justify-content: flex-start;
-  width: 4.82%;
+  width: 9%;
   height: 34.62%;
   position: absolute;
-  right: 22.9%;
+  right: 18%;
   left: 72.29%;
   bottom: 32.69%;
   top: 32.69%;
@@ -976,10 +980,11 @@
   letter-spacing: 1px;
   font-weight: 700;
   position: absolute;
-  right: 10.37%;
-  left: 84.81%;
-  width: 4.82%;
+  right: 5%;
+  left: 82%;
+  width: 13%;
   bottom: 32.69%;
   top: 32.69%;
   height: 34.62%;
+  white-space: nowrap;
 }

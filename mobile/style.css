@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-/* Responsive Mobile Adjustments - Scale 750px design to mobile */
+/* Responsive Mobile Adjustments - Fixed 750px viewport for mobile */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -17,15 +17,12 @@ html, body {
   height: 9884px;
   position: relative;
   overflow: hidden;
-  /* Scale down 750px design to fit mobile screens (typically 375px) */
-  transform: scale(0.5);
-  transform-origin: top left;
 }
 
-/* Container to prevent scaled content from being cut off */
+/* Body container for viewport-based scaling */
 body {
   width: 100vw;
-  height: calc(9884px * 0.5);
+  height: 9884px;
   overflow-x: hidden;
 }
 .div {
@@ -138,9 +135,10 @@ body {
   object-fit: cover;
 }
 .group-1597879178 {
+  width: auto;
   height: auto;
   position: absolute;
-  left: 170px;
+  right: 30px;
   top: 313px;
   overflow: visible;
 }
@@ -191,12 +189,13 @@ body {
   letter-spacing: 0.07em;
   font-weight: 700;
   position: absolute;
-  right: 29.6%;
+  right: 25%;
   left: 17.53%;
-  width: 52.86%;
+  width: 58%;
   bottom: 36.44%;
   top: 40.03%;
   height: 23.53%;
+  white-space: nowrap;
 }
 .ellipse-1 {
   background: #ffffff;
@@ -446,12 +445,13 @@ body {
   letter-spacing: 0.07em;
   font-weight: 700;
   position: absolute;
-  right: 34.03%;
+  right: 30%;
   left: 21.96%;
-  width: 44.01%;
+  width: 48%;
   bottom: 36.44%;
   top: 40.03%;
   height: 23.53%;
+  white-space: nowrap;
 }
 .arrow-right3 {
   width: 75%;
