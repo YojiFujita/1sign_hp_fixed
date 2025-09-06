@@ -85,27 +85,16 @@ body {
 }
 .business {
   color: #004324;
-  text-align: left;
+  text-align: center;
   font-family: "Audiowide-Regular", sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.2;
   font-weight: 400;
   position: relative;
-  margin: 10px 0;
+  margin: 15px 0;
   padding: 0 20px;
 }
-.div4 {
-  color: #004324;
-  text-align: left;
-  font-family: "NotoSans-ExtraBold", sans-serif;
-  font-size: 16px;
-  line-height: 1.2;
-  font-weight: 800;
-  position: absolute;
-  left: calc(50% + 50px);
-  top: 95px;
-  width: auto;
-}
+/* .div4 removed - combined with .business */
 .group-1597879173 {
   width: 60%;
   height: 15%;
@@ -144,12 +133,12 @@ body {
   color: #ffffff;
   text-align: center;
   font-family: "NotoSansCjkJp-Bold", sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   line-height: 1.4;
   letter-spacing: 0.05em;
   font-weight: 700;
   position: absolute;
-  top: 400px;
+  top: 450px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 40px);
@@ -397,12 +386,14 @@ body {
   color: #004324;
   text-align: left;
   font-family: "NotoSansJp-Bold", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.3;
   font-weight: 700;
   position: relative;
   padding: 0 20px;
-  margin: 10px 0;
+  margin: 15px 0;
+  display: block;
+  visibility: visible;
 }
 ._1-sign-cyber-access-port3 {
   color: #004324;
