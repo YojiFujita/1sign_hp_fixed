@@ -37,33 +37,23 @@
    </style>
   <title>1Sign株式会社</title>
   <script>
-    function isMobileDevice() {
-      const userAgent = navigator.userAgent;
-      const mobileKeywords = [
-        'Mobile', 'Android', 'iPhone', 'iPad', 'iPod', 
-        'BlackBerry', 'Windows Phone', 'webOS'
-      ];
-      
-      const isMobileUserAgent = mobileKeywords.some(keyword => 
-        userAgent.includes(keyword)
-      );
-      
-      const isSmallScreen = window.innerWidth <= 768;
-      const isTouchDevice = 'ontouchstart' in window;
-      
-      return isMobileUserAgent || isSmallScreen || isTouchDevice;
+    function isMobileSize() {
+      return window.innerWidth <= 768;
     }
     
     function checkDeviceAndRedirect() {
-      if (isMobileDevice()) {
+      if (isMobileSize()) {
         if (!window.location.pathname.includes('/mobile/')) {
           window.location.href = './mobile/';
         }
       }
     }
     
+    // 初回読み込み時とリサイズ時にチェック
     document.addEventListener('DOMContentLoaded', checkDeviceAndRedirect);
-    window.addEventListener('resize', checkDeviceAndRedirect);
+    window.addEventListener('resize', function() {
+      setTimeout(checkDeviceAndRedirect, 100); // 少し遅延させて安定性向上
+    });
   </script>
 </head>
 <body>

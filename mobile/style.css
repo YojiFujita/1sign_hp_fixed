@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-/* Responsive Mobile Adjustments - Fixed 750px viewport for mobile */
+/* True Responsive Mobile Design */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -13,27 +13,25 @@ html, body {
 
 .mobile-top {
   background: #eee9e1;
-  width: 750px;
-  height: 9884px;
+  width: 100vw;
+  min-height: 100vh;
   position: relative;
-  overflow: hidden;
-  transform: scale(0.53);
-  transform-origin: top left;
+  overflow-x: hidden;
 }
 
-/* Body container for viewport-based scaling */
+/* Body container - natural sizing */
 body {
   width: 100vw;
-  height: calc(9884px * 0.53);
   overflow-x: hidden;
 }
 .div {
   background: #004324;
-  width: 750px;
-  height: 1069px;
-  position: absolute;
-  left: 0px;
-  top: 894px;
+  width: 100vw;
+  min-height: 400px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
 }
 .rectangle-4453 {
   border-radius: 0px;
@@ -48,38 +46,38 @@ body {
   color: #f9f5ee;
   text-align: left;
   font-family: "NotoSansJp-Bold", sans-serif;
-  font-size: 34px;
-  line-height: 49.68px;
+  font-size: 6vw;
+  line-height: 1.4;
   letter-spacing: 0.13em;
   font-weight: 700;
-  position: absolute;
-  left: 39.45px;
-  top: 152px;
-  width: 633.39px;
+  position: relative;
+  margin: 20px 0;
+  padding: 0 5%;
+  width: 90%;
 }
 .div2 {
   color: #f9f5ee;
   text-align: left;
   font-family: "NotoSansJp-Bold", sans-serif;
-  font-size: 26px;
-  line-height: 49.68px;
+  font-size: 5vw;
+  line-height: 1.4;
   letter-spacing: 0.13em;
   font-weight: 700;
-  position: absolute;
-  left: 39.45px;
-  top: 338px;
+  position: relative;
+  margin: 15px 0;
+  padding: 0 5%;
 }
 .div3 {
   color: #f9f5ee;
   text-align: left;
   font-family: "NotoSansJp-Bold", sans-serif;
-  font-size: 30px;
-  line-height: 49.68px;
+  font-size: 5.5vw;
+  line-height: 1.4;
   letter-spacing: 0.13em;
   font-weight: 700;
-  position: absolute;
-  left: 419px;
-  top: 468px;
+  position: relative;
+  margin: 15px 0;
+  padding: 0 5%;
 }
 .group-1597879170 {
   position: absolute;
@@ -89,12 +87,12 @@ body {
   color: #004324;
   text-align: left;
   font-family: "Audiowide-Regular", sans-serif;
-  font-size: 64.47368621826172px;
-  line-height: 77.38px;
+  font-size: 8vw;
+  line-height: 1.2;
   font-weight: 400;
-  position: absolute;
-  left: calc(50% - 343px);
-  top: 53.14px;
+  position: relative;
+  margin: 20px 0;
+  padding: 0 5%;
 }
 .div4 {
   color: #004324;
@@ -128,11 +126,11 @@ body {
   top: 548px;
 }
 .rectangle-1098 {
-  width: 750px;
-  height: 894px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  width: 100vw;
+  height: 400px;
+  position: relative;
+  top: 0;
+  left: 0;
   overflow: visible;
   object-fit: cover;
 }
@@ -236,12 +234,13 @@ body {
   overflow: visible;
 }
 .div6 {
-  width: 750px;
-  height: 1684px;
-  position: absolute;
-  left: 0px;
-  top: 1963px;
-  overflow: hidden;
+  width: 100vw;
+  min-height: 600px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  overflow-x: hidden;
 }
 .group-2396 {
   height: auto;
@@ -470,12 +469,13 @@ body {
     rgba(249, 245, 238, 1) 46.66853845119476%,
     rgba(231, 227, 212, 1) 100%
   );
-  width: 751px;
-  height: 1523px;
-  position: absolute;
-  left: -1px;
-  top: 3623px;
-  overflow: hidden;
+  width: 100vw;
+  min-height: 600px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  overflow-x: hidden;
 }
 .div10 {
   color: #004324;
@@ -737,12 +737,13 @@ body {
 }
 .div12 {
   background: #004324;
-  width: 751px;
-  height: 1814px;
-  position: absolute;
-  left: 0px;
-  top: 5146px;
-  overflow: hidden;
+  width: 100vw;
+  min-height: 600px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  overflow-x: hidden;
 }
 .div13 {
   width: 1271px;
@@ -844,10 +845,10 @@ body {
   object-fit: cover;
 }
 .footer-1 {
-  width: 751px;
-  height: 744.97px;
-  position: absolute;
-  left: -1px;
-  top: 9139px;
+  width: 100vw;
+  height: auto;
+  max-height: 400px;
+  position: relative;
   object-fit: cover;
+  margin-top: 20px;
 }

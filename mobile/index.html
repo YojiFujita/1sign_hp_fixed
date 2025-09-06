@@ -36,6 +36,24 @@
    }
    </style>
   <title>1Sign株式会社 - Mobile</title>
+  <script>
+    function isDesktopSize() {
+      return window.innerWidth > 768;
+    }
+    
+    function checkDeviceAndRedirect() {
+      if (isDesktopSize()) {
+        // デスクトップサイズになったらメイン版にリダイレクト
+        window.location.href = '../';
+      }
+    }
+    
+    // 初回読み込み時とリサイズ時にチェック
+    document.addEventListener('DOMContentLoaded', checkDeviceAndRedirect);
+    window.addEventListener('resize', function() {
+      setTimeout(checkDeviceAndRedirect, 100);
+    });
+  </script>
   
   <style>
     /* Mobile Menu Styles */
