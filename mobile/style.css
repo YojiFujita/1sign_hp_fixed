@@ -98,14 +98,13 @@ body {
   color: #004324;
   text-align: left;
   font-family: "NotoSans-ExtraBold", sans-serif;
-  font-size: 30px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 1.2;
   font-weight: 800;
-  position: absolute;
-  left: 365px;
-  top: 92px;
-  width: 229px;
-  height: 116px;
+  position: relative;
+  margin: 5px 0;
+  padding: 0 20px;
+  width: auto;
 }
 .group-1597879173 {
   width: 60%;
@@ -145,13 +144,13 @@ body {
   color: #ffffff;
   text-align: center;
   font-family: "NotoSansCjkJp-Bold", sans-serif;
-  font-size: 43.98181915283203px;
-  line-height: 59px;
-  letter-spacing: 0undefined;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
   font-weight: 700;
-  position: absolute;
-  left: 27.89px;
-  top: 526px;
+  position: relative;
+  margin: 15px 0;
+  padding: 0 20px;
 }
 .div-5-span {
 }
@@ -159,11 +158,11 @@ body {
   letter-spacing: -0.8300000000000001em;
 }
 .component-10 {
-  width: 384px;
-  height: 102px;
-  position: absolute;
-  left: 183px;
-  top: 723px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  margin: 20px auto;
+  display: block;
 }
 .rectangle-4455 {
   background: #009844;
@@ -183,9 +182,9 @@ body {
   color: #ffffff;
   text-align: center;
   font-family: "DmSans-Bold", sans-serif;
-  font-size: 31.822742462158203px;
-  line-height: 23.87px;
-  letter-spacing: 0.07em;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
   font-weight: 700;
   position: absolute;
   right: 25%;
